@@ -2,11 +2,15 @@ const { Sequelize, Model, DataTypes } = require("sequelize");
 const sequelize = require('./connection.js');
 
 // Definindo nosso maodel de videos.
-const videos = sequelize.define("videos", {
-	title : DataTypes.TEXT,
-	url : DataTypes.TEXT,
+const videos = sequelize.define('videos', {
+	title : {
+		type: Sequelize.STRING
+	},
+	url : {
+		type:Sequelize.STRING
+	},
 	favorite : {
-		type: DataTypes.BOOLEAN,
+		type: Sequelize.BOOLEAN,
 		defaultValue: false
 	}
 });
@@ -21,4 +25,4 @@ const videos = sequelize.define("videos", {
 		})
 })();
 
-module.export = videos;
+module.exports = videos;
