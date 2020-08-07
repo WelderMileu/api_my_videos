@@ -3,12 +3,8 @@ const sequelize = require('./connection.js');
 
 // Definindo nosso maodel de videos.
 const videos = sequelize.define('videos', {
-	title : {
-		type: Sequelize.STRING
-	},
-	url : {
-		type:Sequelize.STRING
-	},
+	title : Sequelize.STRING,
+	url : Sequelize.STRING,
 	favorite : {
 		type: Sequelize.BOOLEAN,
 		defaultValue: false
