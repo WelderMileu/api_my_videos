@@ -4,4 +4,4 @@
 
 url da aplicação
 
-https://git.heroku.com/apimyvideos.git
+https://apimyvideos.herokuapp.com
