@@ -12,12 +12,30 @@ router.get('/', (request, response) => {
 // Publicando um novo video com o metodo post.
 router.post('/post', (request, response) => {
 	const { title, url } = request.body; 
-	
+
 	videos.create({ title, url })
-		.then(data => console.log(data))
+		.then(data => {
+			console.log(data)
+			return response.json({ status: 'ok' })
+		})
 		.catch(err => console.log(`Erro ao tentar computar dados ${err}`));
 })
 
+// Editando o vidio usando o metodo put.
+router.put('/update?:id', (request, response) => {
+	const id = request.query.id;
+	const { title, url, favorite } = request.body;
+
+	videos.update({ title, url, favorite }, {
+		where: {
+			id: id
+		}
+	});
+
+	return response.json(request.body);
+})
+
+// Exportando nosso modulo.
 module.exports = router;
 
 
