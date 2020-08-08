@@ -1,7 +1,8 @@
 const express = require('express');
-const cors = require('cors')
-const bodyParser = require('body-parser')
+const cors = require('cors');
+const bodyParser = require('body-parser');
 const app = express();
+const config = require('dotenv').config();
 
 const port = process.env.PORT || 8000;
 const sequelize = require('./config/connection.js'); // Conexão com o banco de dados.
