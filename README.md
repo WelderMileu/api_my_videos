@@ -28,12 +28,12 @@ Essa api foi criada para alimentar uma aplicação que irá ser desenvolvida em 
 
 
 &nbsp;
-## Baixando pacotes
+### Baixando pacotes
 ``` bash
 $ npm install
 ```
 &nbsp;
-## Iniciando a aplicação.
+### Iniciando a aplicação.
 ``` bash
 $ npm run start
 ```
