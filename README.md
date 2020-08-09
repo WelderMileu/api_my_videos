@@ -1,7 +1,21 @@
-## Montando uma api rest de listagem de videos
+#### MONTANDO UMA API REST DE LISTAGEM DE VÍDEOS
 
-- Api em contrução ...
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-url da aplicação
+#### Ferramentas utilizadas
 
-https://apimyvideos.herokuapp.com
+- Node JS
+- Express
+- Sequlize
+- Banco Sqlite(no-sql)
+
+&nbsp;
+
+|METHOD | URL | 
+| ------ | ------ |
+| GET | https://apimyvideos.heroukuapp.com |
+| PUT | https://apimyvideos.heroukuapp.com/update?{id} |
+| DELETE | https://apimyvideos.heroukuapp.com/delete?{id} |
+| POST | https://apimyvideos.heroukuapp.com/post?{title}&{url} |
+
+Api em desenvolvimento ...
