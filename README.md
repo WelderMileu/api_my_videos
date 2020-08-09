@@ -1,4 +1,4 @@
-#### MONTANDO UMA API REST DE LISTAGEM DE VÍDEOS
+## MONTANDO UMA API REST DE LISTAGEM DE VÍDEOS
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -6,7 +6,7 @@
 
 - Node JS
 - Express
-- Sequlize
+- Sequlize(ORM)
 - Banco Sqlite(no-sql)
 
 &nbsp;
@@ -17,5 +17,19 @@
 | PUT | https://apimyvideos.heroukuapp.com/update?{id} |
 | DELETE | https://apimyvideos.heroukuapp.com/delete?{id} |
 | POST | https://apimyvideos.heroukuapp.com/post?{title}&{url} |
+
+&nbsp;
+
+#### Baixando pacotes
+``` bash
+	npm install
+```
+
+#### Iniciando a aplicação.
+``` bash
+	npm run start
+```
+
+
 
 Api em desenvolvimento ...
