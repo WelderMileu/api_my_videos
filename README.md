@@ -20,6 +20,11 @@
 | DELETE | https://apimyvideos.heroukuapp.com/delete?{id} |
 | POST | https://apimyvideos.heroukuapp.com/post?{title}&{url} |
 
+### Objetivo
+
+Essa api foi criada para alimentar uma aplicação que irá ser desenvolvida em **React JS**, essa aplicação irá funcionar como um crud simples para armazenamento de videos do youtube, que serão classificados entre abas, tendo uma aba com todos os videos e outra somente com os favoritos.
+
+
 &nbsp;
 #### Baixando pacotes
 ``` bash
