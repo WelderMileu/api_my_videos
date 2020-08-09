@@ -19,17 +19,15 @@
 | POST | https://apimyvideos.heroukuapp.com/post?{title}&{url} |
 
 &nbsp;
-
 #### Baixando pacotes
 ``` bash
-	npm install
+npm install
 ```
-
+&nbsp;
 #### Iniciando a aplicação.
 ``` bash
-	npm run start
+npm run start
 ```
 
-
-
+&nbsp;
 Api em desenvolvimento ...
